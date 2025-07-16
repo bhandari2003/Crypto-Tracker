@@ -1,0 +1,114 @@
+.grid-container {
+  width: 300px;
+  background-color: var(--darkgrey);
+  border: 2px solid var(--darkgrey);
+  border-radius: 1rem;
+}
+.grid-container:hover {
+    border-color: rgb(3, 189, 3);
+    transition: all 0.3s;
+}
+.grid-container-red:hover {
+    
+    border-color: var(--red);
+    transition: all 0.3s;
+}
+
+.info-flex {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1rem;
+}
+
+.coin-logo {
+  margin: 1rem;
+  height: 3rem;
+  margin-top: -1rem;
+}
+
+.coin-sym {
+  color: var(--white);
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 1.3rem;
+}
+
+.coin-name {
+  color: var(--grey);
+  text-transform: capitalize;
+  font-weight: light;
+  font-size: 1rem;
+  transform: translateY(-30px);
+  line-height: 1;
+}
+
+.name-sym {
+  display: flex;
+  flex-direction: column;
+}
+
+.chip-flex {
+  display: flex;
+  justify-content: flex-start;
+  gap: 1rem;
+  margin-left: 1rem;
+  margin-top: -1.2rem;
+  align-items: center;
+}
+
+.price-chip {
+  border: 2px solid rgb(3, 189, 3);
+  border-radius: 3rem;
+  padding: 0.5rem 0.75rem;
+  text-align: center;
+  font-weight: 400;
+  color: rgb(3, 189, 3);
+  font-size: 1rem;
+}
+
+.price-chip:hover{
+    background-color: rgb(3, 189, 3);
+    color: var(--white);
+    transition: all 0.3s;
+}
+
+.chip-red {
+  border: 2px solid var(--red);
+  color: var(--red);
+}
+
+.chip-red:hover{
+    background-color: var(--red);
+    color: var(--white);
+    transition: all 0.3s;
+}
+
+.icon-chip:hover{
+    background-color: var(--red);
+    color: var(--white);
+    transition: all 0.3s;
+}
+.icon-chip {
+  border: 2px solid var(--red);
+  border-radius: 3rem;
+  padding: 0.5rem 0.75rem;
+  text-align: center;
+  font-weight: 400;
+  color: var(--red);
+  font-size: 1rem;
+}
+
+.info-container{
+    margin: 1rem;
+}
+.info-container h3{
+    color: rgb(3, 189, 3);
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.info-container p{
+    color: rgba(224, 219, 219, 0.729);
+    font-weight: 500;
+}
